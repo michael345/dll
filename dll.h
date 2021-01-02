@@ -14,3 +14,6 @@ get_new_dll();
 
 int
 add_data_to_dll (dll_t *dll, void *app_data);
+
+int
+add_data_to_end_of_dll (dll_t *dll, void *app_data);
